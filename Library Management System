@@ -1,0 +1,59 @@
+Project Overview
+This project is a Library Management System developed using Python. It allows users to manage library books through a simple menu-driven interface. The program supports operations such as adding books, viewing available books, issuing books to students, returning books, and searching for books.
+Each book is stored with a Book ID, Book Name, and status (Available or Issued). When a book is issued, the system records the student name and the number of days the book is issued. If the book is returned late, the program calculates a fine amount.
+The program runs continuously until the user selects the exit option.
+
+Objectives
+Build a simple Library Management System using Python
+Understand menu-driven programming
+Practice functions, loops, and conditional statements
+Manage book records using lists and dictionaries
+
+Implement issue and return book logic
+Tools & Technologies
+Python 3
+VS Code / IDLE
+
+Project Description
+The system displays a menu with different library operations. The user can select an option to perform tasks such as adding books, issuing books, returning books, or searching for books.
+Each function performs a specific task, making the code organized and easy to understand.
+The program stores book data in a list using dictionaries to keep track of details like book ID, book name, issue status, and student information.
+This project helps beginners understand how to build a simple management system using core Python concepts.
+
+Key Concepts Used
+This project demonstrates several important Python concepts:
+Functions
+Lists and dictionaries
+While loops
+Conditional statements (if-elif-else)
+User input handling
+Menu-driven programming
+
+Algorithm
+Start the program
+Display the library management menu
+Read the user’s choice
+Perform the selected operation:
+Add book
+View books
+Issue book
+Return book
+Search book
+Update book status and student information if required
+Display results or messages to the user
+Repeat until the user selects Exit
+
+Features
+Menu-based user interaction
+Add books with Book ID and name
+View all books and their availability status
+Issue books to students
+Return books with fine calculation
+Search books by name
+Continuous execution until exit
+
+Result
+The Library Management System successfully performs all library operations including adding books, issuing books, returning books, and searching for books through a simple menu-driven interface.
+
+Conclusion
+This mini project demonstrates how Python can be used to develop a basic management system using functions, loops, and data structures. It helps beginners understand how real-world systems such as libraries can be implemented using simple programming logic.
